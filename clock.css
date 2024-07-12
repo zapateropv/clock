@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body{
+
+    background-image: url("/portfolio/images-src/bg.png");
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.clock{
+    font-family: monospace;
+    font-size: 200px;
+    margin-top: 200px;
+    color: white
+}
+
+p{
+
+    font-family: Bitter;
+    font-size: 100px;
+    text-align: center;
+  
+    color: white;
+  
+}
+
+.day{
+
+    font-family: arial;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+
+@media(max-width: 1111px){
+
+p{
+    font-size: 5rem;
+}
+
+.clock{
+    font-size: 10rem;
+}
+
+}
+
+
+
+@media(max-width: 913px){
+
+    p{
+        font-size: 4.5rem;
+    }
+    
+    .clock{
+        font-size: 8rem;
+    }
+    
+    }
+
+
+    
+@media(max-width: 765px){
+
+    p{
+        font-size: 4.5rem;
+    }
+    
+    .clock{
+        font-size: 6rem;
+    }
+
+     .day{
+        font-size: 5rem;
+     }
+    
+    }
+
+        
+@media(max-width: 641px){
+
+    p{
+        font-size: 3.5rem;
+    }
+    
+    .clock{
+        font-size: 5rem;
+    }
+
+     .day{
+        font-size: 4.2rem;
+     }
+    
+    }
+
+
+    @media(max-width: 519px){
+
+        p{
+            font-size: 2.5rem;
+        }
+        
+        .clock{
+            font-size: 4.1rem;
+        }
+    
+         .day{
+            font-size: 3.5rem;
+         }
+        
+        }
+
+
+        @media(max-width: 431px){
+
+            p{
+                font-size: 2rem;
+            }
+            
+            .clock{
+                font-size:3.4rem;
+            }
+        
+             .day{
+                font-size: 2.8rem;
+             }
+            
+            }
+
+
+            @media(max-width: 355px){
+
+                p{
+                    font-size: 2rem;
+                }
+                
+                .clock{
+                    font-size:2.8rem;
+                }
+            
+                 .day{
+                    font-size: 2.4rem;
+                 }
+                
+                }
+
+                
+            @media(max-width: 301px){
+
+                p{
+                    font-size: 1.5rem;
+                }
+                
+                .clock{
+                    font-size:2.3rem;
+                }
+            
+                 .day{
+                    font-size: 2rem;
+                 }
+                
+                }
